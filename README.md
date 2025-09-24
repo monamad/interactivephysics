@@ -1,16 +1,21 @@
-# interactivephysics
+# Interactive Physics
 
-A new Flutter project.
+A Flutter app demonstrating drag and drop interactions with colored objects.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Drag colored circles (blue, green, red)
+- Drop on matching colored targets
+- Visual feedback with checkmark icons
+- Reset functionality to start over
 
-A few resources to get you started if this is your first Flutter project:
+![App Screenshot](images/image.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to Use
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Drag the colored circles from the top row
+2. Drop them on matching colored targets below
+3. Successful matches show a checkmark icon
+4. Use Reset button to clear all matches
+
+Built with Flutter's `Draggable` and `DragTarget` widgets.
